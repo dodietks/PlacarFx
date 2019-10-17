@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dodie.FXMLController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="00:" textAlignment="CENTER">
+                     <font>
+                        <Font size="125.0" />
+                     </font>
+                  </Label>
+                  <Label text="00">
+                     <font>
+                        <Font size="125.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Competidor Um">
+                     <font>
+                        <Font size="72.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets right="50.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Competidor Dois">
+                     <font>
+                        <Font size="72.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Pane HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label layoutX="353.0" layoutY="224.0" text="0">
+                                 <font>
+                                    <Font size="96.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="275.0" layoutY="67.0" text="0">
+                                 <font>
+                                    <Font size="72.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="353.0" layoutY="67.0" text="0">
+                                 <font>
+                                    <Font size="72.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="431.0" layoutY="67.0" text="0">
+                                 <font>
+                                    <Font size="72.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="509.0" layoutY="119.0" text="0">
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="509.0" layoutY="14.0" text="0">
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Pane HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label layoutX="104.0" layoutY="56.0" text="0">
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="104.0" layoutY="108.0" text="0">
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="193.0" layoutY="73.0" text="0">
+                                 <font>
+                                    <Font size="72.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="271.0" layoutY="73.0" text="0">
+                                 <font>
+                                    <Font size="72.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="349.0" layoutY="73.0" text="0">
+                                 <font>
+                                    <Font size="72.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="276.0" layoutY="218.0" text="0">
+                                 <font>
+                                    <Font size="96.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
