@@ -1,3 +1,32 @@
 .label {
-    -fx-text-fill: blue;
+    -fx-text-fill: #474350;
+}
+#HBoxTimer {
+    -fx-background-color: #FFFAFA;
+}
+#HBoxCompetidor {
+    // Roxo -fx-background-color: #52437b;
+    // Azul -fx-background-color: #4f81c7;
+    -fx-background-color: #4f81c7;
+}
+#HBoxCompetidor .label {
+    -fx-text-fill: #FFFAFA;
+}
+#HBoxCompetidor .label #LabelVantagem {
+    -fx-text-fill: #52de97;
+}
+#HBoxPontoUm {
+    -fx-background-color: #FFFAFA;
+}
+#HBoxPontoDois {
+    -fx-background-color: #293462;
+}
+#HBoxPontoDois .label {
+    -fx-text-fill: #FFFAFA;
+}
+#LabelVantagem {
+    -fx-text-fill: #52de97;
+}
+#LabelFalta{
+    -fx-text-fill: #fe5f55;
 }
