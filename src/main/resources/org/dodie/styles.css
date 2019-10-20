@@ -5,20 +5,22 @@
     -fx-background-color: #FFFAFA;
 }
 #HBoxCompetidor {
-    // Roxo -fx-background-color: #52437b;
-    // Azul -fx-background-color: #4f81c7;
+    //-fx-background-color: #52437b; // Roxo
+    //-fx-background-color: #4f81c7; // Azul
+    //-fx-background-color:= #1E90FF; // azul
+    //-fx-background-color: #8B4513; // marrom
+    //-fx-background-color: #0e0e0e; // preto
     -fx-background-color: #4f81c7;
 }
 #HBoxCompetidor .label {
     -fx-text-fill: #FFFAFA;
 }
-#HBoxCompetidor .label #LabelVantagem {
-    -fx-text-fill: #52de97;
-}
 #HBoxPontoUm {
     -fx-background-color: #FFFAFA;
 }
 #HBoxPontoDois {
+    //-fx-background-color: #0000CD; //Azul
+    //-fx-background-color: #121212; //Preto
     -fx-background-color: #293462;
 }
 #HBoxPontoDois .label {
