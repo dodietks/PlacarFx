@@ -1,6 +1,27 @@
 .label {
     -fx-text-fill: #474350;
 }
+#HBoxControles {
+    -fx-background-color: #FFFAFA;
+}
+#ButtonSair {
+    -fx-text-fill: #474350;
+    -fx-background-color: #FFFAFA;
+    -fx-effect: dropshadow( one-pass-box , black , 6 , 0.0 , 1 , 0 );
+}
+#ButtonSair:hover {
+    -fx-text-fill: #FFFAFA;
+    -fx-background-color: #474350;
+}
+#ButtonMaximizar {
+    -fx-text-fill: #474350;
+    -fx-background-color: #FFFAFA;
+    -fx-effect: dropshadow( one-pass-box , black , 6 , 0.0 , 1 , 0 );
+}
+#ButtonMaximizar:hover {
+    -fx-text-fill: #FFFAFA;
+    -fx-background-color: #474350;
+}
 #HBoxTimer {
     -fx-background-color: #FFFAFA;
 }
@@ -15,6 +36,9 @@
 #HBoxCompetidor .label {
     -fx-text-fill: #FFFAFA;
 }
+#HBoxPontoDois .label {
+   //-fx-text-fill: #FFFAFA;
+}
 #HBoxPontoUm {
     -fx-background-color: #FFFAFA;
 }
@@ -23,12 +47,39 @@
     //-fx-background-color: #121212; //Preto
     -fx-background-color: #293462;
 }
-#HBoxPontoDois .label {
-    -fx-text-fill: #FFFAFA;
-}
 #LabelVantagem {
     -fx-text-fill: #52de97;
 }
-#LabelFalta{
+#LabelFalta {
     -fx-text-fill: #fe5f55;
+}
+#LabelTotal {
+    -fx-text-fill: #474350;
+}
+#LabelQuatroPontos {
+    -fx-text-fill: #474350;
+}
+#LabelTresPontos {
+    -fx-text-fill: #474350;
+}
+#LabelDoisPontos {
+    -fx-text-fill: #474350;
+}
+#LabelVantagem2 {
+    -fx-text-fill: #52de97;
+}
+#LabelFalta2 {
+    -fx-text-fill: #fe5f55;
+}
+#LabelTotal2 {
+    -fx-text-fill: #FFFAFA;
+}
+#LabelQuatroPontos2 {
+    -fx-text-fill: #FFFAFA;
+}
+#LabelTresPontos2 {
+    -fx-text-fill: #FFFAFA;
+}
+#LabelDoisPontos2 {
+    -fx-text-fill: #FFFAFA;
 }
