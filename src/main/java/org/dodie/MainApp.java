@@ -26,7 +26,7 @@ public class MainApp extends Application {
         stage.setTitle("Placar Dodie's Corp.");
         stage.setFullScreen(true);
         stage.initStyle(StageStyle.UNDECORATED);
-
+        /* Função para arrastar a tela com o mouse, desativada pro causar confusão durante a pontuação.
         root.setOnMousePressed(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
@@ -41,6 +41,7 @@ public class MainApp extends Application {
                 stage.setY(event.getScreenY() - yOffset);
             }
         });
+        */
 
         stage.setScene(scene);
         stage.show();

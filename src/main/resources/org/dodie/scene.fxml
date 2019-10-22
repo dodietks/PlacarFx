@@ -19,7 +19,7 @@
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </HBox.margin>
                      <children>
-                        <Button id="ButtonMaximizar" fx:id="buttonMaximizar" mnemonicParsing="false" onAction="#setButtonMaximizar" prefHeight="30.0" prefWidth="30.0" text="M">
+                        <Button id="ButtonMaximizar" fx:id="buttonMaximizar" disable="true" mnemonicParsing="false" onAction="#setButtonMaximizar" prefHeight="30.0" prefWidth="30.0" text="M" visible="false">
                            <font>
                               <Font name="System Bold" size="12.0" />
                            </font></Button>
@@ -87,7 +87,7 @@
                            <children>
                               <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Label id="LabelVantagem" text="01">
+                                    <Label id="LabelVantagem" fx:id="labelVantagem" onMouseReleased="#handleLabelVantagem" text="00">
                                        <font>
                                           <Font size="50.0" />
                                        </font>
@@ -98,7 +98,7 @@
                                           <Insets bottom="-10.0" top="-10.0" />
                                        </padding>
                                     </Label>
-                                    <Label id="LabelFalta" text="01">
+                                    <Label id="LabelFalta" fx:id="labelFalta" onMouseReleased="#handleLabelFalta" text="00">
                                        <font>
                                           <Font size="50.0" />
                                        </font>
@@ -113,7 +113,7 @@
                               </HBox>
                               <HBox alignment="TOP_RIGHT">
                                  <children>
-                                    <Label id="LabelDoisPontos" text="02">
+                                    <Label id="LabelDoisPontos" fx:id="labelDoisPontos" onMouseReleased="#handleLabelDoisPontos" text="00">
                                        <font>
                                           <Font size="100.0" />
                                        </font>
@@ -124,7 +124,7 @@
                                           <Insets top="-10.0" />
                                        </padding>
                                     </Label>
-                                    <Label id="LabelTresPontos" text="03">
+                                    <Label id="LabelTresPontos" fx:id="labelTresPontos" onMouseReleased="#handleLabelTresPontos" text="00">
                                        <font>
                                           <Font size="100.0" />
                                        </font>
@@ -135,7 +135,7 @@
                                           <Insets top="-10.0" />
                                        </padding>
                                     </Label>
-                                    <Label id="LabelQuatroPontos" text="04">
+                                    <Label id="LabelQuatroPontos" fx:id="labelQuatroPontos" onMouseReleased="#handleLabelQuatroPontos" text="00">
                                        <font>
                                           <Font size="100.0" />
                                        </font>
@@ -152,7 +152,7 @@
                         </VBox>
                         <HBox alignment="TOP_RIGHT" prefWidth="300.0">
                            <children>
-                              <Label id="LabelTotal" text="22">
+                              <Label id="LabelTotal" fx:id="labelTotal" text="00">
                                  <font>
                                     <Font size="200.0" />
                                  </font>
@@ -171,7 +171,7 @@
                      <children>
                         <HBox prefWidth="300.0">
                            <children>
-                              <Label id="LabelTotal2" text="22">
+                              <Label id="LabelTotal2" fx:id="labelTotal2" text="00">
                                  <font>
                                     <Font size="200.0" />
                                  </font>
@@ -188,7 +188,7 @@
                            <children>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Label id="LabelVantagem2" text="01">
+                                    <Label id="LabelFalta2" fx:id="labelFalta2" onMouseReleased="#handleLabelFalta2" text="00">
                                        <font>
                                           <Font size="50.0" />
                                        </font>
@@ -199,7 +199,7 @@
                                           <Insets bottom="-10.0" top="-10.0" />
                                        </padding>
                                     </Label>
-                                    <Label id="LabelFalta2" text="01">
+                                    <Label id="LabelVantagem2" fx:id="labelVantagem2" onMouseReleased="#handleLabelVantagem2" text="00">
                                        <font>
                                           <Font size="50.0" />
                                        </font>
@@ -214,7 +214,7 @@
                               </HBox>
                               <HBox VBox.vgrow="ALWAYS">
                                  <children>
-                                    <Label id="LabelQuatroPontos2" text="04">
+                                    <Label id="LabelQuatroPontos2" fx:id="labelQuatroPontos2" onMouseReleased="#handleLabelQuatroPontos2" text="00">
                                        <font>
                                           <Font size="100.0" />
                                        </font>
@@ -225,7 +225,7 @@
                                           <Insets top="-10.0" />
                                        </padding>
                                     </Label>
-                                    <Label id="LabelTresPontos2" text="03">
+                                    <Label id="LabelTresPontos2" fx:id="labelTresPontos2" onMouseReleased="#handleLabelTresPontos2" text="00">
                                        <font>
                                           <Font size="100.0" />
                                        </font>
@@ -236,7 +236,7 @@
                                           <Insets top="-10.0" />
                                        </padding>
                                     </Label>
-                                    <Label id="LabelDoisPontos2" text="02">
+                                    <Label id="LabelDoisPontos2" fx:id="labelDoisPontos2" onMouseReleased="#handleLabelDoisPontos2" text="00">
                                        <font>
                                           <Font size="100.0" />
                                        </font>
